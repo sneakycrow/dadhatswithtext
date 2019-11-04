@@ -1,17 +1,17 @@
 import React, { Fragment } from 'react';
-import Head from 'next/head';
 import Nav from '../components/nav';
+import Head from 'next/head';
 
-const Home = () => (
+const Shop = () => (
   <Fragment>
     <Head>
-      <title>Dad hats with text - Home</title>
+      <title>Dads with hats - Shop</title>
     </Head>
     <div>
       <Nav />
-      <h1>This will be the homepage</h1>
+      <h1>This is the shop</h1>
     </div>
   </Fragment>
-);
+)
 
-export default Home;
+export default Shop;
