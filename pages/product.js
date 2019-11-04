@@ -15,6 +15,12 @@ const Product = () => {
         <h1>{router.query.title}</h1>
         <img src="/static/fake_hat_drawing.jpg" />
       </div>
+      <style jsx>{`
+        img {
+          max-width: 400px;
+          height: auto;
+        }
+      `}</style>
     </Fragment>
   );
 };
