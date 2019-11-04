@@ -13,7 +13,7 @@ const Product = () => {
       <div>
         <Nav />
         <h1>{router.query.title}</h1>
-        <img src="http://placeskull.com/170/170" />
+        <img src="/static/example_hat.jpg" />
       </div>
     </Fragment>
   );
