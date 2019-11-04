@@ -25,6 +25,35 @@ const FAQ = () => (
         </li>
       </ul>
     </div>
+    <style jsx>{`
+      div {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-auto-rows: max-content;
+      }
+      ${Nav} {
+        grid-row: 1;
+      }
+      h1 {
+        grid-row: 2;
+        grid-column: 1 / span 12;
+        text-align: center;
+      }
+      ul {
+        grid-row: 3;
+        grid-column: 4 / span 6;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      li h3, li p {
+        text-align: center;
+        display: block;
+        width: 100%;
+      }
+    `}</style>
   </Fragment>
 )
 
