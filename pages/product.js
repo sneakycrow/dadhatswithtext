@@ -13,7 +13,7 @@ const Product = () => {
       <div>
         <Nav />
         <h1>{router.query.title}</h1>
-        <img src="/static/example_hat.jpg" />
+        <img src="/static/fake_hat_drawing.jpg" />
       </div>
     </Fragment>
   );
