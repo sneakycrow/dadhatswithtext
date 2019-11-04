@@ -5,7 +5,7 @@ import Nav from '../components/nav';
 const Home = () => (
   <Fragment>
     <Head>
-      <title>Dad hats with text - Home</title>
+      <title>Dad hats with text</title>
     </Head>
     <div>
       <Nav />
